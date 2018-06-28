@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?><cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+	<storageModule moduleId="org.eclipse.cdt.core.settings">
+		<cconfiguration id="com.digi.dey.build.toolChain.base.390755649">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="com.digi.dey.build.toolChain.base.390755649" moduleId="org.eclipse.cdt.core.settings" name="Default">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.GNU_ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration buildProperties="" id="com.digi.dey.build.toolChain.base.390755649" name="Default" parent="org.eclipse.cdt.build.core.emptycfg">
+					<folderInfo id="com.digi.dey.build.toolChain.base.390755649.1613499347" name="/" resourcePath="">
+						<toolChain id="com.digi.dey.build.toolChain.base.1824451090" name="DEY Cross GCC" superClass="com.digi.dey.build.toolChain.base">
+							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.GNU_ELF" id="com.digi.dey.build.targetPlatform.base.2123027908" name="Debug Platform" osList="linux,hpux,aix,qnx" superClass="com.digi.dey.build.targetPlatform.base"/>
+							<builder id="com.digi.dey.build.builder.base.1144400789" managedBuildOn="false" name="Gnu Make Builder.Default" superClass="com.digi.dey.build.builder.base"/>
+							<tool id="com.digi.dey.build.archiver.base.479017054" name="DEY GCC C Cross-Archiver" superClass="com.digi.dey.build.archiver.base"/>
+							<tool id="com.digi.dey.build.c.compiler.base.1735656061" name="DEY GCC C Cross-Compiler" superClass="com.digi.dey.build.c.compiler.base">
+								<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.1439876046" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+							</tool>
+							<tool id="com.digi.dey.build.cpp.compiler.base.2132919017" name="DEY GCC C++ Cross-Compiler" superClass="com.digi.dey.build.cpp.compiler.base"/>
+							<tool id="com.digi.dey.build.c.linker.base.892503193" name="DEY GCC C Cross-Linker" superClass="com.digi.dey.build.c.linker.base">
+								<inputType id="cdt.managedbuild.tool.gnu.c.linker.input.829259756" superClass="cdt.managedbuild.tool.gnu.c.linker.input">
+									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
+								</inputType>
+							</tool>
+							<tool id="com.digi.dey.build.cpp.linker.base.1371590063" name="DEY GCC C++ Cross-Linker" superClass="com.digi.dey.build.cpp.linker.base"/>
+							<tool id="com.digi.dey.build.assembler.base.1693600635" name="DEY GCC C Cross-Assembler" superClass="com.digi.dey.build.assembler.base">
+								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.574151397" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
+							</tool>
+						</toolChain>
+					</folderInfo>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+	</storageModule>
+	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+		<project id="apix-adc-sample.null.301712593" name="apix-adc-sample"/>
+	</storageModule>
+	<storageModule moduleId="scannerConfiguration">
+		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+	<storageModule moduleId="refreshScope"/>
+	<storageModule moduleId="org.eclipse.cdt.make.core.buildtargets"/>
+</cproject>
